@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProjectStructure.md",
+                "file": "ProjectTIL/2026-05-25(월).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ProjectStructure"
+              "title": "2026-05-25(월)"
             }
           }
         ]
@@ -185,6 +185,10 @@
   },
   "active": "633d052203102cbb",
   "lastOpenFiles": [
+    "Skill.md",
+    "ProjectTIL/2026-05-25(월).md",
+    "ProjectTIL",
+    "ProjectPlan.md",
     "ProjectGoal.md",
     "ProjectStructure.md",
     "환영합니다!.md"
