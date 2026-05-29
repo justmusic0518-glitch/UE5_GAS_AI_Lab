@@ -18,15 +18,18 @@ public:
 	ACombatCharacterBase();
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	void ApplyCombatDamage(float damageAmount);
+	void SetInvincible(bool bNewInvincible);
+	bool IsInvincible() const;
 	
 protected:
-	virtual void BeginPlay() override;
-	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	virtual void BeginPlay() override; 
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "AbilitySystem")
 	TObjectPtr<UAbilitySystemComponent> abilitySystemComponent;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "AbilitySystem")
 	TObjectPtr<UCombatAttributeSet> attributeSet;
-	
+
+private:
+	bool bIsInvincible = false;
 };

@@ -19,9 +19,11 @@ class GAS_AI_PROTOTYPE_API UCombatAttributeSet : public UAttributeSet{
 public:
 	UCombatAttributeSet();
 	
-	UPROPERTY(BlueprintReadOnly, Category = "Status")	FGameplayAttributeData Health;
+	UPROPERTY(BlueprintReadOnly, Category = "Status")	
+	FGameplayAttributeData Health;
 	ATTRIBUTE_ACCESSORS(UCombatAttributeSet, Health)
-	UPROPERTY(BlueprintReadOnly, Category = "Status")	FGameplayAttributeData MaxHealth;
+	UPROPERTY(BlueprintReadOnly, Category = "Status")	
+	FGameplayAttributeData MaxHealth;
 	ATTRIBUTE_ACCESSORS(UCombatAttributeSet, MaxHealth)
 	UPROPERTY(BlueprintReadOnly, Category = "Status")
 	FGameplayAttributeData Stamina;
